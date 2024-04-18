@@ -1,0 +1,29 @@
+/* Navigation bar styles */
+.navbar {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+  color: #212529; /* Dark text color */
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto; /* Pushes nav items to the right */
+}
+
+.nav-link {
+  color: #212529; /* Dark text color */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.navbar-toggler {
+  /* Green color for the button border */
+}
+
+.navbar-toggler-icon {
+  font-size: 16px;
+}

@@ -1,0 +1,163 @@
+.VideoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+
+.text1 {
+  font-size: 50px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+.text3 {
+  width: 440px;
+  height: 40px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border: 2px solid;
+  border-right: #28b76b;
+  border-radius: 4px;
+
+  padding: 8px;
+  outline: none;
+}
+
+.btn {
+  height: 41px;
+  width: 90px;
+  color: #ffffff;
+  background-color: #00b887;
+  text-align: center;
+  border: 0px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 500;
+}
+
+.text3,
+.btn {
+  margin-bottom: 20px; /* Increase the margin for a larger gap */
+}
+
+/* .tableContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow-x: auto;
+} */
+
+.VideoContainer .tableContainer {
+  max-width: 900px; /* Limit the maximum width for larger screens */
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap; /* Prevent text wrapping in cells */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.text4 {
+  color: #28b76b;
+  font-weight: 400;
+}
+
+.quality {
+  font-weight: 500;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .text1 {
+    font-size: 30px;
+  }
+
+  .text2 {
+    font-size: 14px;
+  }
+
+  .text3,
+  .btn {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjustments for mobile devices */
+  .text1 {
+    font-size: 34px;
+  }
+
+  .text2 {
+    font-size: 12px;
+  }
+
+  .text3 {
+    width: 100%;
+    max-width: 100%;
+    border-right: 2px solid;
+    margin-bottom: 10px;
+  }
+  .btn {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  table {
+    font-size: 12px;
+  }
+
+  th,
+  td {
+    padding: 4px;
+  }
+}
